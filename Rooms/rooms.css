@@ -69,6 +69,147 @@ a:hover, a:visited, a:link, a:active {
 /*====================================================================================================================================*/
 
 /*===== Here is the end of the Navigation part. Start off with the page content from here =====*/
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  
+  h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    line-height: ;
+    font-size: ;
+  }
+  
+  a {
+    color: #009ECC;
+  }
+  
+  a:hover {
+    color: #009ECC;
+  }
+  
+  /*====== Content =======*/
+  .section {
+    padding-top: 70px;
+    padding-bottom: ;
+    background-color: #fff;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .room-intro-block {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-intro-block.no-line {
+    padding-bottom: 0px;
+    border-bottom: 1px none #000;
+  }
+  
+  .room-intro-heading {
+    margin-bottom: 18px;
+    color: #909090;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 23px;
+  }
+  
+  .room-title {
+    display: block;
+    color: #424242;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .room-subtitle {
+    color: #909090;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .stars {
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 2px;
+    background-color: #26aeed;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #e8b11a;
+    color: #ffffff;
+  }
+  .button.discover-more-button {
+    float: left;
+  }
+  .button.discover-more-button:hover {
+    color: #ffffff;
+  }
+  
+
 
 /*====================================================================================================================================*/
 

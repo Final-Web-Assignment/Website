@@ -115,6 +115,60 @@ a:hover {
   color: #009ECC;
 }
 
+/*================= PAGE CONTENT ===================*/
+
+/*======= Room Intro Block ========*/
+.container.intro {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+.intro-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+}
+.room-intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  line-height: 30px;
+  color: #626262;
+}
+
+/*======= Room Blocks ========*/
+.card-block {
+  padding-top: 10px; 
+  padding-bottom: 100px;
+}
+.card-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 9px;
+  font-weight: 700;
+}
+.card-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #424242;
+  padding-top: 20px;
+}
+.img-fluid {
+  display: block;
+  background-size: cover;
+  background-position: 50%;
+  
+  left: 0;
+  bottom: -10%;
+  width: 100%;
+  height: 120%;
+}
+
+
 
 /*====================================================================================================================================*/
 

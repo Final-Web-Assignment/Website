@@ -3,10 +3,26 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+}
+
+/*========== SCROLL-UP ICON =============*/
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #009ECC;
+  font-size: 22px;
 }
 
 /*============== TOP BAR ===============*/

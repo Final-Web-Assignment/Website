@@ -205,13 +205,92 @@ ul.social li {
 
 /*======== MEDIA QUERIES =========*/
 
-/* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
-
+@media (max-width: 1200px) {
+  .intro-header {
+    font-size: 60px;
+  }
 }
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-    .carousel-caption h1 {
-        font-size: 1.5rem;
-    }   
+
+
+@media (max-width: 992px) {
+  .card-subtitle {
+    letter-spacing: 6px;
+  }
+  .card-name {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 990px){
+  .intro-header {
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  .container.intro {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .intro-header {
+    font-size: 43px;
+    padding-bottom: 20px;
+  }
+  .card-subtitle {
+    letter-spacing: 8px;
+  }
+  .card-name {
+    font-size: 21px;
+  }
+  .container.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+
+@media (max-width: 585px) {
+  .intro-header {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .container.intro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 480px){
+  p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .intro-header {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .card-subtitle {
+    letter-spacing: 7px;
+  }
+  .card-name {
+    font-size: 21px;
+  }
+}
+
+
+@media (max-width: 371px) {
+  .card-subtitle {
+    letter-spacing: 5px;
+  }
+  .card-name {
+    font-size: 18px;
+  }
+  .container.intro {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }

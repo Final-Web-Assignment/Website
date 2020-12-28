@@ -1,0 +1,236 @@
+/*===== Body Reset =====*/
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*============== TOP BAR ===============*/
+
+.top-bar {
+    background: #009ECC;
+    height: 2.8rem;
+    padding: 0.5rem 0; 
+}
+.top-bar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.top-bar p {
+    color: rgba(255, 255, 255, 0.83);
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+/*============= NAVIGATION ===============*/
+.navbar-brand img {
+    height: 3.5rem;
+}
+.navbar {
+    padding: .8rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    color: #5b5555!important;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #009ECC!important;
+}
+
+/*====================================================================================================================================*/
+
+/*===== Here is the end of the Navigation part. Start off with the page content from here =====*/
+
+/*====================================================================================================================================*/
+
+/*=========== FOOTER =============*/
+/*start hero*/
+#slider {
+    overflow: hidden;
+   
+}
+#slider{
+    position: relative;
+    width: 500%;
+    height: -5%;
+    left: 0;
+    animation: 30s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+/*End hero*/
+/*Start box*/
+.box{
+    width: 350px;
+    height: 300px;
+    margin: -320px 20px 20px 575px;
+
+
+    background-color: rgb(177, 194, 226);
+}
+
+.box1{
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 975px;
+
+    background-color: rgb(177, 194, 226);
+}
+.ab{
+    position: absolute;
+    top: 295%;
+    left: 72%;
+}
+.mh{
+    position: absolute;
+    top: 312%;
+    left: 74%;
+}
+.ro{
+    position: absolute;
+    top: 295%;
+    left: 87%;
+}
+.map{
+    position: absolute;
+    left: 20%;
+    top: 340%;
+}
+.cont{
+    width: 60%;
+    height: 90%;
+    padding: 10px;
+    background: auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.box2{
+    
+    width: 400px;
+    height: 500px;
+    background:rgb(2, 14, 26);
+    float: left;
+    margin: 0px 10px;
+    transition: 1s;
+}
+.box2:hover{
+    transform: scale(1.1);
+    background: rgb(15, 105, 122);
+}
+.box3{
+    width: 250px;
+    height: 200px;
+    background:rgb(2, 14, 26);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 190px;
+}
+.box4{
+    width: 250px;
+    height: 200px;
+    background:rgb(198, 217, 235);
+    margin-top: -201px;
+    margin-bottom: 0px;
+    margin-left: 550px;
+}
+.box5{
+    width: 250px;
+    height: 200px;
+    background:rgb(1, 1, 2);
+    margin-top: -201px;
+    margin-bottom: 0px;
+    margin-left: 890px;
+}
+/*End box*/
+
+footer {
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+footer img {
+    margin: auto;
+}
+footer p, footer a,
+.socket a {
+    color: white;
+    text-decoration: none;
+}
+ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+}
+ul.social li {
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+/*============ SOCKET ===============*/
+.socket {
+    background-color: #222222;
+    border-top: 0.1rem solid #009ECC;
+}
+
+/*======== MEDIA QUERIES =========*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}

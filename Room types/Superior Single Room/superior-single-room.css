@@ -302,16 +302,6 @@ ul.social li {
 }
 
 
-@media (max-width: 992px) {
-  
-}
-
-
-@media (max-width: 990px){
-  
-}
-
-
 @media (max-width: 871px) {
     .header-container {
         height: 350px;
@@ -324,7 +314,6 @@ ul.social li {
         display: grid;
         grid-template-columns: auto;
     }
-
 }
 
 

@@ -1,0 +1,19 @@
+Theme color: #009ECC
+Footer color: #383838
+Socket color: # #222222
+Theme font: (font-family: 'Montserrat', sans-serif;)
+font size: 14px
+
+html/css page names for ur pages
+Home: index.html/index.css
+About us: about-us.html/about-us.css
+Rooms: rooms.html/rooms.css
+Multiple Hotels: multiple-hotels.html/multiple-hotels.css
+Registration: registration.html/registration.css
+
+Me file eka oyalage lap ekata save kragattata passe, vs code ekata dala files tika rename kragnna uda kiyala thiyana widiyata.
+Eg: The person who got the home page, rename this files using vs code as I have mentioned above.
+
+In the comments I have mentioned where to start coding in both html and css. From there start coding your page.
+Dont make any changes to the codes that's already there.
+You guys can directly start with the body part of the html.

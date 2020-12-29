@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -55,53 +56,21 @@ a:hover, a:visited, a:link, a:active {
 /*====================================================================================================================================*/
 
 /*===== Here is the end of the Navigation part. Start off with the page content from here =====*/
-
-/*====================================================================================================================================*/
-
-/*=========== FOOTER =============*/
-footer {
-    background-color: #383838;
-    padding: 1rem 2rem 3rem;
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #009ECC;
+  font-size: 22px;
 }
-footer img {
-    margin: auto;
-}
-footer p, footer a,
-.socket a {
-    color: white;
-    text-decoration: none;
-}
-ul.social {
-    list-style-type: none;
-    display: flex;
-    max-width: 16rem;
-    margin: 0 auto;
-    padding: 0;
-}
-ul.social li {
-    margin: 0 auto;
-    font-size: 2rem;
-}
-
-/*============ SOCKET ===============*/
-.socket {
-    background-color: #222222;
-    border-top: 0.1rem solid #009ECC;
-}
-
-/*======== MEDIA QUERIES =========*/
-
-/* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
-
-}
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-
-}
-/*----------------------------------------------------------------------------------------------------*/
 .all-title-box{
-     background: url("images/aboutimg.jpg") no-repeat center center;
+     background: url("images/about-us/aboutimg.jpg") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;
@@ -185,7 +154,7 @@ ul.social li {
     padding: 12px 15px;
 }
 .spn1{
-	color: #009ECC;
+    color: #009ECC;
 }
 
  .service-block-inner::before {
@@ -208,7 +177,7 @@ ul.social li {
      position: absolute;
      top: 0;
      left: 0;
-	 z-index: -1;
+     z-index: -1;
      transition: all 0.5s ease 0s;
 }
  .service-block-inner h3 {
@@ -227,112 +196,83 @@ ul.social li {
 }
 
 .service-block-inner:hover h3{
-	color: #ffffff;
-	transition: all 0.5s ease 0s;
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
 }
 
 .service-block-inner:hover p{
-	color: #ffffff;
-	transition: all 0.5s ease 0s;
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
 }
-/*------------------------------------------------------------------ Instagram Feed -------------------------------------------------------------------*/
- /*.instagram-box{
-     padding: 70px 0px;
-     background: url(../images/ins-bg.jpg) no-repeat center center;
-     background-size: auto auto;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -ms-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     position: relative;
+
+/*----------------------------------------------------------------------------------------------------------*/
+.divcon
+{
+    width: 100%;
+    padding: 20px;
+    background :#ddd;
+    margin: 100px auto;
+   
+      display: flex;
+      justify-content: center;
 }
- .instagram-box::before{
-     background: rgba(0,0,0,0.9);
-     width: 100%;
-     height: 100%;
-     left: 0px;
-     top: 0px;
-     content: "" ;
-     position: absolute;
-     z-index: 0;
+.dbox
+{
+    width: 250px;
+    height: 250px;
+    
+    margin: 0px 10px;
+   transition: 1s;
 }
- .main-instagram.owl-carousel .owl-nav button.owl-prev{
-     background: #000000;
-     position: absolute;
-     z-index: 1;
-     display: block;
-     height: 100%;
-     width: 50px;
-     line-height: 0px;
-     font-size: 24px;
-     cursor: pointer;
-     color: #ffffff;
-     top: 0;
-     padding: 0;
-     margin-top: 0;
-     opacity: 1;
-     left: 0px;
-     -webkit-transition: all 0.3s ease;
-     -o-transition: all 0.3s ease;
-     transition: all 0.3s ease;
+.dbox:hover
+{
+    transform: scale(1.3);
+    box-shadow:2px 2px 2px #000;
+    z-index: 2;
 }
- .main-instagram.owl-carousel .owl-nav button.owl-next{
-     background: #000000;
-     position: absolute;
-     z-index: 1;
-     display: block;
-     height: 100%;
-     width: 50px;
-     line-height: 0px;
-     font-size: 24px;
-     cursor: pointer;
-     color: #ffffff;
-     top: 0;
-     padding: 0;
-     margin-top: 0;
-     opacity: 1;
-     right: 0px;
-     -webkit-transition: all 0.3s ease;
-     -o-transition: all 0.3s ease;
-     transition: all 0.3s ease;
+
+
+/*====================================================================================================================================*/
+
+/*=========== FOOTER =============*/
+footer {
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
 }
- .main-instagram.owl-carousel .owl-nav button.owl-next:hover, .main-instagram.owl-carousel .owl-nav button.owl-prev:hover{
-     background: #b0b435;
+footer img {
+    margin: auto;
 }
- .ins-inner-box{
-     position: relative;
+footer p, footer a,
+.socket a {
+    color: white;
+    text-decoration: none;
 }
- .hov-in{
-     opacity: 0;
-     background: rgba(211,59,51, 0.5);
-     bottom: -100%;
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     -webkit-transition: all 0.3s ease-out 0.5s;
-     -moz-transition: all 0.3s ease-out 0.5s;
-     -o-transition: all 0.3s ease-out 0.5s;
-     -ms-transition: all 0.3s ease-out 0.5s;
-     transition: all 0.3s ease-out 0.5s;
-     text-align: center;
-     display: table;
+ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
 }
- .hov-in a{
-     display: table-cell;
-     vertical-align: middle;
-     height: 100%;
+ul.social li {
+    margin: 0 auto;
+    font-size: 2rem;
 }
- .hov-in i{
-     color: #000000;
-     font-size: 48px;
-     position: relative;
-     z-index: 2;
+
+/*============ SOCKET ===============*/
+.socket {
+    background-color: #222222;
+    border-top: 0.1rem solid #009ECC;
 }
- .hov-in a i:hover{
-     color: #ffffff;
+
+/*======== MEDIA QUERIES =========*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
 }
- .ins-inner-box:hover .hov-in{
-     bottom: 0;
-     opacity: 1;
-}*/
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+/*----------------------------------------------------------------------------------------------------*/

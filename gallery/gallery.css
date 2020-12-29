@@ -72,7 +72,9 @@ a:hover, a:visited, a:link, a:active {
 /*===== Here is the end of the Navigation part. Start off with the page content from here =====*/
 
 /*====================================================================================================================================*/
-
+.h2{
+    font-family: " Brush Script MT";
+}
 
 .container{
     position: relative;

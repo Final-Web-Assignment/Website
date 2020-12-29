@@ -14,11 +14,25 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #009ECC;
+    font-size: 22px;
+  }
 
 /*============== TOP BAR ===============*/
 
@@ -67,7 +81,7 @@ a:hover, a:visited, a:link, a:active {
 
 /*============ INNER HERO =============*/
 .all-title-box{
-    background: url("images/contact-us-customer-support-hotline-people-connect-call-customer-support_36325-1640.jpg") no-repeat center center;
+    background: url("images/contact_us/contact-details-smartphone-business-contact-us.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Seaside South Park</title>
+     <link rel="stylesheet" type="text/css" href="booking.css">
+     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <link rel="shortcut icon" href="images/booking/site-icon.png" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/booking/site-icon.png">
+     
+</head>
+<body>
+	<div class="container">
+		<form class="form-group">
+			<div id="form">
+				<h1 class="text-white text-center"><font color="white">Book Now</font></h1>
+				
+				<div id="first-group">
+
+					<div id="content">
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<input type="text" id="input" placeholder="First name">
+					</div>
+
+					<div id="content">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<input type="text" id="input" placeholder="Phone number">
+					</div>
+
+					<div id="content">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<input type="text" id="input" placeholder="Depature Date  DD/MM/YYYY">
+					</div>
+
+					<div id="content">
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<select id="input" style="background-color: black;"> 
+						<option value="">No.of guests</option>
+						<option value="">1-5</option>
+						<option value="">6-10</option>
+						<option value="">11-15</option>
+					</select>
+					</div> 
+
+				</div>
+				<div id="second-group">
+
+					<div id="content">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<input type="text" id="input" placeholder="Last name">
+					</div>
+
+					<div id="content">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<input type="email" id="input" placeholder="Email">
+					</div> 
+
+					<div id="content">
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<input type="text" id="input" placeholder="Arrival Date  DD/MM/YYYY">
+					</div>
+
+					<div id="content">
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<select id="input" style="background-color: black;"> 
+						<option value="">Room Type</option>
+						<option value="">Superior single room</option>
+						<option value="">Superior double room</option>
+						<option value="">Deluxe suite</option>
+						<option value="">Executive suite</option>
+						<option value="">Ambassador suite</option>
+						<option value="">Presidential suite</option>
+					</select>
+					</div> 
+					
+			</div>
+			<button type="submit" value="Submit" id="submit-btn"><font color="white">Book Now</font></button>
+		</form>
+	</div>
+</body>
+</html>
